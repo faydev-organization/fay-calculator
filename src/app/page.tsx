@@ -71,7 +71,7 @@ const Page = () => {
     return () => {
       window.removeEventListener("keydown", handleKeyPress);
     };
-  }, []);
+  }, [handleKeyPress]);
 
   const buttons = [
     "C",
