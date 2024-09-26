@@ -1,36 +1,72 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Kalkulator Web
 
-## Getting Started
+Kalkulator web sederhana yang dibangun menggunakan **Next.js** dan **Tailwind CSS**. Proyek ini dirancang untuk menunjukkan cara membangun aplikasi web yang responsif dan interaktif dengan teknologi modern.
 
-First, run the development server:
+## Fitur
 
-```bash
+- Antarmuka pengguna yang responsif dan menarik
+- Mendukung operasi dasar: Penjumlahan, Pengurangan, Perkalian, dan Pembagian
+- Desain yang dapat disesuaikan menggunakan Tailwind CSS
+
+## Prasyarat
+
+Sebelum memulai, pastikan Anda telah menginstal:
+
+- [Node.js](https://nodejs.org/) (versi 12 atau lebih baru)
+- [npm](https://www.npmjs.com/) atau [yarn](https://yarnpkg.com/) sebagai pengelola paket
+
+## Instalasi
+
+1. **Clone repositori ini ke mesin lokal Anda:**
+
+   ```bash
+   git clone https://github.com/username/repo-kalkulator.git
+   cd repo-kalkulator
+   ```
+
+2. Instal dependensi:
+
+bash
+Salin kode
+npm install
+
+# atau
+
+yarn install
+Jalankan aplikasi dalam mode pengembangan:
+
+bash
+Salin kode
 npm run dev
-# or
+
+# atau
+
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Buka browser dan akses:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+http://localhost:3000
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Struktur Proyek
+php
+Salin kode
+.
+├── public # File statis
+├── src
+│ ├── components # Komponen React
+│ ├── pages # Halaman aplikasi
+│ └── styles # Gaya dan konfigurasi Tailwind
+├── .gitignore
+├── package.json
+└── tailwind.config.js
+Penggunaan
+Masukkan angka ke dalam kalkulator.
+Pilih operasi yang diinginkan.
+Klik tombol untuk mendapatkan hasil.
+Kontribusi
+Jika Anda ingin berkontribusi, silakan fork repositori ini dan buat pull request. Semua kontribusi sangat dihargai!
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Lisensi
+Proyek ini dilisensikan di bawah MIT License.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Kontak
+Untuk pertanyaan atau umpan balik, silakan hubungi saya di email@example.com.
