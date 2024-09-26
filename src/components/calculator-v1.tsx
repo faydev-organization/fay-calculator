@@ -85,6 +85,7 @@ const Calculator = () => {
     <main className="flex min-h-screen flex-col bg-gray-100 items-center p-24">
       <h1 className="text-3xl font-bold mb-10">My Calculator</h1>
       <div className="flex space-x-4">
+        {/* History Section */}
         <div className="bg-gray-200 p-4 rounded-lg shadow-lg w-1/4">
           <h2 className="text-2xl font-bold mb-2">History</h2>
           <ul className="list-disc pl-5 max-h-64 overflow-y-auto">
@@ -95,6 +96,7 @@ const Calculator = () => {
             ))}
           </ul>
         </div>
+        {/* Calculator Section */}
         <div className="bg-white p-6 rounded-lg shadow-lg w-3/4">
           <input
             type="text"
